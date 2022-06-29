@@ -1,10 +1,13 @@
-import logo from "./logo.svg";
+import React from "react";
+import { GlobalStyle } from "./GlobalStyle";
+import Sidebar from "./component/Sidebar";
 
 function App() {
   return (
-    <div>
-      Hello world
-    </div>
+    <>
+      <Sidebar />
+      <GlobalStyle />
+    </>
   );
 }
 
