@@ -1,6 +1,6 @@
 import React from "react";
 import { GlobalStyle } from "./GlobalStyle";
-import Sidebar from "./component/Sidebar";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
